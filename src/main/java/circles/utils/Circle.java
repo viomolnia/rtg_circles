@@ -7,7 +7,6 @@ public class Circle {
     public double x;
     public double y;
     public double radius;
-    public double angle;
     public Speed speed;
     public Color color;
     public boolean minimize;

@@ -29,7 +29,6 @@ public class CollisionCircles {
 
                 circle.radius = random(MIN_RADIUS, MAX_RADIUS);
                 circle.mass = circle.radius / 2;
-                circle.angle = random(0, 360);
 
                 int red = random(0, 256);
                 int green = random(0, 256);
