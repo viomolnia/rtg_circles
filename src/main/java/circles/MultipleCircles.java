@@ -20,35 +20,36 @@ public class MultipleCircles {
     // color: 0 - 256
 
     private static void init(Panel panel) {
+        Circle circle1 = new Circle();
+        Circle circle2 = new Circle();
+        Circle circle3 = new Circle();
 
         //circle-1
-        Circle circle1 = new Circle();
         circle1.x = 70;
         circle1.y = 90;
         circle1.radius = 40;
         circle1.color = color(100, 200, 40);
-        panel.addCircle(circle1);
 
         //circle-2
-        Circle circle2 = new Circle();
         circle2.x = 300;
         circle2.y = 100;
         circle2.radius = 60;
         circle2.color = color(200, 40, 10);
-        panel.addCircle(circle2);
 
         //circle-3
-        Circle circle3 = new Circle();
         circle3.x = 700;
         circle3.y = 300;
         circle3.radius = 80;
         circle3.color = color(150, 110, 80);
+
+        panel.addCircle(circle1);
+        panel.addCircle(circle2);
         panel.addCircle(circle3);
     }
 }
 
 
-// With cycle
+// With loop
 // for (int i = 1; i < 100; i++) {
 //        Circle circle = new Circle();
 //
